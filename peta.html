@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peta Embed</title>
+  <!-- Load ArcGIS embeddable map component -->
+  <script type="module" src="https://js.arcgis.com/embeddable-components/4.33/arcgis-embeddable-components.esm.js"></script>
+</head>
+<body>
+  <h2>Peta Interaktif 🌍</h2>
+  <p>Kamu bisa menjelajahi peta di bawah ini:</p>
+
+  <!-- Embed Map -->
+  <arcgis-embedded-map 
+    style="height:600px;width:100%;max-width:900px;border:1px solid #ccc;border-radius:10px;"
+    item-id="f0978f57cc984e6ea9018347d3dae17e" 
+    theme="light" 
+    heading-enabled 
+    legend-enabled 
+    center="120.73210960808815,-8.787082219255584"
+    scale="36978595.474472" 
+    portal-url="https://www.arcgis.com">
+  </arcgis-embedded-map>
+</body>
+</html>
